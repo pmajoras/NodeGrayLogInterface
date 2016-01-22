@@ -1,8 +1,8 @@
 "user strict"
-var BearController = require("./routes/bear");
+var GraylogController = require("./routes/graylog.js");
 
 var controllers = {
-  bear: new BearController()
+    graylogController: new GraylogController()
 };
 
 module.exports = controllers;

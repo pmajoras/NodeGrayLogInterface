@@ -1,19 +1,17 @@
 {
-  "name": "management-system-client-app",
-  "version": "0.0.0",
-  "description": "General Management System",
+  "name": "node-gray-log-client",
+  "version": "1.0.0",
+  "description": "ManagementSystemClientApp",
+  "repository": {
+    "url": ""
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "(https://github.com/pmajoras/ManagementSystem)"
-  },
-  "keywords": [
-    "Management",
-    "System"
-  ],
-  "author": "Paulo Gabriel Poffal and Roberto Zaffari Irigaray",
-  "license": "MIT"
+  "author": "Paulo Gabriel Poffal",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.2"
+  }
 }

@@ -1,0 +1,2 @@
+C:\ProjetosGit\NodeGrayLogInterace\src\obj\Debug\NodeGraylogInterface.njsprojResolveAssemblyReference.cache
+C:\ProjetosGit\NodeGrayLogInterace\src\bin\Microsoft.NodejsTools.WebRole.dll

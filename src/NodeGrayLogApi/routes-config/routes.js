@@ -5,7 +5,7 @@ function setup(app, controllers) {
     res.json({ message: 'hooray! welcome to our api!' });
   });
 
-  app.get('/api/bear', controllers.bear.getBear);
+  app.get('/api/graylog', controllers.graylogController.searchAbsolute);
 }
 
 exports.setup = setup;
