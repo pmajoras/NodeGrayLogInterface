@@ -31,7 +31,7 @@
     <Content Include="NodeGrayLogClient\bower.json" />
     <Content Include="NodeGrayLogClient\package.json" />
     <Content Include="NodeGrayLogClient\README.md" />
-    <Compile Include="NodeGrayLogClient\app\components\Demo.jsx" />
+    <Compile Include="NodeGrayLogClient\app\components\CommentBox.js" />
     <Compile Include="NodeGrayLogClient\app\js\main.js" />
     <Compile Include="NodeGrayLogClient\index.js" />
     <Compile Include="NodeGrayLogApi\config\config.js" />

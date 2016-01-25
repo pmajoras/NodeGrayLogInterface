@@ -1,4 +1,1 @@
-﻿ReactDOM.render(
-  <CommentBox />,
-  document.getElementById('teste')
-);
+﻿ReactDOM.render(<ComboBox />,document.getElementById("idTeste"));

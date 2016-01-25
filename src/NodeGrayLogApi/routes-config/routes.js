@@ -5,7 +5,9 @@ function setup(app, controllers) {
     res.json({ message: 'hooray! welcome to our api!' });
   });
 
-  app.get('/api/graylog', controllers.graylogController.searchAbsolute);
+  app.get('/api/graylog', function (req, res) {
+    controllers.graylogController.searchAbsolute(req, res);
+  });
 }
 
 exports.setup = setup;
