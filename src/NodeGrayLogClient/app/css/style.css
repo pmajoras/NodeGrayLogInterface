@@ -1,3 +1,7 @@
 ﻿.separator {
     margin-top: 50px;
 }
+
+div.ardp-date-picker div.calendar {
+    position: initial;
+}

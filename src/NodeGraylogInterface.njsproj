@@ -20,6 +20,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
     <Content Include="NodeGrayLogApi\.editorconfig" />
+    <Content Include="NodeGrayLogClient\app\configurations\applications.json" />
     <Content Include="NodeGrayLogClient\app\css\style.css" />
     <Content Include="NodeGrayLogClient\Index.html" />
     <Content Include="NodeGrayLogApi\jsconfig.json" />
@@ -31,7 +32,7 @@
     <Content Include="NodeGrayLogClient\bower.json" />
     <Content Include="NodeGrayLogClient\package.json" />
     <Content Include="NodeGrayLogClient\README.md" />
-    <Compile Include="NodeGrayLogClient\app\components\CommentBox.js" />
+    <Compile Include="NodeGrayLogClient\app\components\ComboBox.js" />
     <Compile Include="NodeGrayLogClient\app\js\main.js" />
     <Compile Include="NodeGrayLogClient\index.js" />
     <Compile Include="NodeGrayLogApi\config\config.js" />
@@ -341,6 +342,7 @@
     <Folder Include="NodeGrayLogClient\app\css\" />
     <Folder Include="NodeGrayLogClient\app\js\" />
     <Folder Include="NodeGrayLogClient\app\components\" />
+    <Folder Include="NodeGrayLogClient\app\configurations\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->

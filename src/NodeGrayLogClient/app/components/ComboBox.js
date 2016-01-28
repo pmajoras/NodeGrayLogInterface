@@ -4,6 +4,17 @@ window.ComboBox = React.createClass({
       data: []
     }
   },
+  componentDidMount: function () {
+    this.serverRequest = $.get(this.props.source, function (result) {
+      this.setState({
+        data: result,
+      });
+    }.bind(this));
+  },
+
+  componentWillUnmount: function () {
+    this.serverRequest.abort();
+  },
   handleChange: function() {
     console.log("changed");
   },
@@ -15,7 +26,7 @@ window.ComboBox = React.createClass({
     }
     
     return (
-      <select onChange={this.handleChange} className="form-control">
+      <select onChange={this.handleChange} className={this.props.class || 'form-control'}>
         {options}
       </select>
     );

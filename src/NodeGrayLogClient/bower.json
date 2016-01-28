@@ -23,6 +23,7 @@
   "dependencies": {
     "jquery": "~2.2.0",
     "bootstrap": "~3.3.6",
-    "react": "~0.14.6"
+    "react": "~0.14.6",
+    "a-react-datepicker": "~0.1.13"
   }
 }

@@ -29,7 +29,7 @@ fs.readFile('Index.html', function (err, html) {
             '.gif': 'image/gif',
             '.css': 'text/css',
             '.js': 'text/javascript',
-            '.jsx': 'text/jsx'
+            '.json': 'application/json'
           }[request.url.substr(dotoffset)];
 
         mimetype = mimetype ? mimetype : 'text/html';
