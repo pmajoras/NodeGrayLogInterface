@@ -1,3 +1,3 @@
 ﻿ReactDOM.render(<ComboBox source="/app/configurations/applications.json" />, document.getElementById("cboApp"));
-ReactDOM.render(<AReactDatepicker  />, document.getElementById("minDateApp")); 
-ReactDOM.render(<AReactDatepicker  />, document.getElementById("maxDateApp")); 
+ReactDOM.render(<BrDate />, document.getElementById("minDateApp")); 
+ReactDOM.render(<BrDate />, document.getElementById("maxDateApp")); 
